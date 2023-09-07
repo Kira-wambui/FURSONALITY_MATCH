@@ -13,6 +13,7 @@ header {
     padding: 20px; /* Add padding to the header */
     text-align: center; /* Center-align text */
 }
+
 /* Style the main content */
 main {
     max-width: 800px; /* Limit content width for readability */
@@ -49,5 +50,36 @@ button[type="submit"] {
 
 /* Add hover effect to the submit button */
 button[type="submit"]:hover {
+    background-color: #555; /* Slightly darker gray on hover */
+}
+
+/* Style the image container */
+.image-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center-align child elements horizontally */
+    margin-top: 20px; /* Add space between main content and image container */
+}
+
+.image-container img {
+    width: 100px; /* Set a fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Add space between images */
+}
+
+/* Style the buttons */
+.btn {
+    display: inline-block; /* Make buttons inline elements */
+    margin-top: 10px; /* Add space above buttons */
+    padding: 10px 20px; /* Add padding to buttons */
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Text color for buttons */
+    background-color: #333; /* Background color for buttons */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+/* Add hover effect to buttons */
+.btn:hover {
     background-color: #555; /* Slightly darker gray on hover */
 }
